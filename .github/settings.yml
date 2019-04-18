@@ -49,3 +49,5 @@ labels:
   - name: semantic-release
     color: ededed
     description: This was opened by semantic-release
+  - name: released
+    description: This issue or pull-request was included in a version released by semantic-release
