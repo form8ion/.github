@@ -8,6 +8,15 @@ organization level configuration repository
 <!-- consumer badges -->
 [![MIT license][license-badge]][license-link]
 
+## Purpose
+
+GitHub gives special behavior to a repository with the name of `.github`
+
+* Defining community health files for use [as default files](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization#creating-a-repository-for-default-files)
+  in repositories in the orgainzation that have not defined their own files
+* Define default config for [Probot](https://probot.github.io) applications
+  installed within the organization that use [`probot-config`](https://github.com/probot/probot-config)
+
 ## Contributing
 
 <!-- contribution badges -->
