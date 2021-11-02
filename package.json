@@ -11,7 +11,8 @@
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:md": "remark . --frail",
     "lint:sensitive": "ban",
-    "lint:travis": "travis-lint .travis.yml"
+    "lint:travis": "travis-lint .travis.yml",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@form8ion/commitlint-config": "1.0.22",
