@@ -11,7 +11,6 @@
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:md": "remark . --frail",
     "lint:sensitive": "ban",
-    "lint:travis": "travis-lint .travis.yml",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -21,7 +20,7 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "7.0.4",
     "npm-run-all": "4.1.5",
-    "remark-cli": "10.0.0",
-    "travis-lint": "1.0.0"
-  }
+    "remark-cli": "10.0.0"
+  },
+  "dependencies": {}
 }
