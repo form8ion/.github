@@ -28,7 +28,7 @@ labels:
     color: a2eeef
     description: New feature or request
   - name: help wanted
-    color: 008672
+    color: '008672'
     description: Extra attention is needed
   - name: invalid
     color: e4e669
@@ -46,7 +46,7 @@ labels:
     color: e0fc28
     description: This change would break the current public interface for consumers
   - name: greenkeeper
-    color: 00c775
+    color: '00c775'
     description: This was opened by the Greenkeeper service
   - name: semantic-release
     color: ededed
