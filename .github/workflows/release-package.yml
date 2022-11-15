@@ -8,6 +8,7 @@ name: Release
 env:
   FORCE_COLOR: 1
   NPM_CONFIG_COLOR: always
+  HUSKY: 0
 
 jobs:
   release:
