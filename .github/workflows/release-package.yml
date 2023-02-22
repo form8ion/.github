@@ -26,7 +26,6 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: npm
-      - run: npm install -g npm@latest
       - run: npm clean-install
       - name: semantic-release
         run: npx semantic-release@beta
