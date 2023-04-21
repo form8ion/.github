@@ -27,7 +27,7 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm clean-install
-      - run: npm,audit signatures
+      - run: npm audit signatures
       - name: semantic-release
         run: npx semantic-release
         env:
