@@ -29,7 +29,7 @@ jobs:
       - run: npm clean-install
       - run: npm audit signatures
       - name: semantic-release
-        run: npx semantic-release@22.0.1
+        run: npx semantic-release@22.0.4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
