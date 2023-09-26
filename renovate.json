@@ -3,7 +3,7 @@
   "extends": [
     "github>form8ion/renovate-config"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
       "customType": "regex",
       "description": "Update semantic-release version used by npx",
