@@ -27,6 +27,7 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: npm
+      - run: npm install -g corepack@latest
       - run: corepack npm clean-install
       - run: corepack npm audit signatures
       - name: semantic-release
