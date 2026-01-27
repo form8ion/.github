@@ -4,7 +4,6 @@ name: Release
   workflow_call:
     secrets:
       NPM_TOKEN:
-        required: true
 env:
   FORCE_COLOR: 1
   NPM_CONFIG_COLOR: always
